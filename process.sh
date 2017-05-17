@@ -1,0 +1,1 @@
+konsole -e ~/remote/RAID/Desarrollo/newpct/unpassword.py
