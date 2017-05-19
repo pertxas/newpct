@@ -1,10 +1,7 @@
 import mechanize
-import re
-import os
 import newpctmenu
 
 def index(req):
-
 
   br = mechanize.Browser()
   br.set_handle_robots(False)
@@ -18,4 +15,3 @@ def index(req):
       output += line.replace("alt=", "title=")
   output += '</body></html>'
   return output
-
